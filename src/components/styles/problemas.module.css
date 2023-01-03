@@ -1,0 +1,11 @@
+h1 {
+	margin: 200%;
+
+	display: grid;
+	grid-template-columns: 1fr;
+	justify-items: center;
+	font-family: "Poppins", sans-serif;
+	color: rgb(57, 230, 135);
+	font-size: 4em;
+	line-height: 1.1;
+}

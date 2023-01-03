@@ -1,0 +1,37 @@
+.container {
+	display: grid;
+	justify-items: center;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.p {
+	text-align: left;
+	padding: 10px;
+	margin: 10px;
+	font-size: 1.5em;
+	color: rgb(255, 255, 255);
+}
+.icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.iconYoutube > ion-icon {
+	background-color: aliceblue;
+	padding: 10px;
+	margin: 10px;
+	color: #ff0000;
+}
+.linkedin {
+	background-color: aliceblue;
+	padding: 10px;
+	margin: 10px;
+	color: #0e76a8;
+}
+.twitter {
+	background-color: aliceblue;
+	padding: 10px;
+	margin: 10px;
+	color: #00acee;
+}
